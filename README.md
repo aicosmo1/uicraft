@@ -14,12 +14,12 @@
 Install `uicraft` into your agent workspace (Antigravity IDE, Claude Code, Cursor, Codex, Windsurf, Amp, or Cline) with a single command:
 
 ```bash
-npx skills add aliahmadcode/uicraft
+npx skills add aicosmo1/uicraft
 ```
 
 To install globally for all user projects:
 ```bash
-npx skills add aliahmadcode/uicraft -g
+npx skills add aicosmo1/uicraft -g
 ```
 
 ---
@@ -152,4 +152,4 @@ Or to update styling and component structure without touching logic:
 
 ## 📄 License
 
-MIT © [Ali Ahmad](https://github.com/aliahmadcode)
+MIT © [Ali Ahmad](https://github.com/aicosmo1)
