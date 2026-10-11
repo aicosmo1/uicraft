@@ -1,0 +1,31 @@
+{
+  "name": "uicraft",
+  "version": "1.0.0",
+  "description": "Autonomous UI/UX architecture framework natively integrated with shadcn/ui and Agent Skills Registry",
+  "author": "Ali Ahmad",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliahmadcode/uicraft.git"
+  },
+  "homepage": "https://github.com/aliahmadcode/uicraft#readme",
+  "keywords": [
+    "agent-skills",
+    "skills",
+    "ai-agents",
+    "antigravity",
+    "claude-code",
+    "cursor",
+    "codex",
+    "windsurf",
+    "shadcn-ui",
+    "ui-ux",
+    "nextjs",
+    "tailwind"
+  ],
+  "scripts": {
+    "validate": "bash scripts/validate-ui-tree.sh",
+    "eval": "bash scripts/eval-app.sh",
+    "install:integrations": "bash scripts/install-integrations.sh"
+  }
+}

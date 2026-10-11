@@ -1,0 +1,36 @@
+{
+  "framework": "uicraft",
+  "version": "1.2.0",
+  "componentLibrary": "shadcn/ui",
+  "shadcn": {
+    "componentsJson": "components.json",
+    "globalsCss": "app/globals.css",
+    "defaultPreset": "b0"
+  },
+  "integrations": {
+    "autoInstallMissing": true,
+    "registryPath": "uicraft/references/integrations",
+    "skills": [
+      "shadcn",
+      "webperf",
+      "agent-skills",
+      "web-design-guidelines",
+      "composition-patterns",
+      "vercel-react-view-transitions"
+    ]
+  },
+  "paths": {
+    "requirementsFile": "public/requirements.md",
+    "outputDir": "public",
+    "treeDir": "public/ui-tree",
+    "presetInfoFile": "public/preset-info.md",
+    "philosophyFile": "public/philosophy.md",
+    "technicalsFile": "public/technicals.md"
+  },
+  "rules": {
+    "enforceRequirementTraceability": true,
+    "strictNoStyleLeakage": true,
+    "integrationReadyHandlers": true,
+    "defaultTraversal": "depth-first"
+  }
+}
